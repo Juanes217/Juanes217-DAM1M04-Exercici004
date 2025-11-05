@@ -1,0 +1,386 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.cabecera {
+  width: 100%;
+  border-bottom: 1px solid #dfdfdf;
+  padding: 15px 0;
+  background-color: #fff;
+}
+.cabecera a {
+  color: black;
+  text-decoration: none;
+}
+
+.cabecera nav {
+  display: flex;
+  justify-content: center;        
+  gap: 130px;                     
+  max-width: 1000px;   
+  margin: auto;            
+  width: 100%;
+}
+
+.menu {
+  position: fixed;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #a2a0a0;
+  z-index: 1000;
+}
+
+.menu-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.foto{
+  margin-right: 10px;
+  height: 40px;
+}
+
+.btn-compra {
+  background-color: #ff4081;
+  color: white !important;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+/* pagina normal despues de la cabecera */
+
+.pagina1 {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #fff;
+}
+
+.pagina1-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.pagina1 h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.pagina1-image {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  display: block;
+  margin: 0 auto 40px auto;
+}
+
+.pagina1 p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+}
+
+
+/* Sección con fondo negro */
+.seccion-negra {
+    background-color: #000;
+    color: #fff;
+    padding: 80px 20px;
+}
+
+.contenido-negro {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.texto-superior {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+.imagen-principal {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Grid de características */
+.grid-caracteristicas-vector {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+/* Tarjetas de características */
+.caracteristica-card-vector {
+    background-color: #111;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-descripcion-vector {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ccc;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+
+.card-miniatura-vector {
+    max-width: 100px;
+    height: auto;
+    margin-top: 20px;
+    align-self: flex-start;
+}
+
+/*  Parte de como esta POWERED*/
+
+.powered{
+  display: block;
+  background-color: #000000;
+  padding: 180px 0px 190px;
+}
+
+.powered-elemento{
+  width: 100%;
+  max-width: 1560px;
+  padding: 0 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.powered-header{
+  display: block;
+  text-align: center;
+  color:#ffffff;
+}
+
+.powered-header h2{
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 650px;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.powered-header p{
+  max-width: 650px;
+  margin-top: 23px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 20px;
+  color:#d4d3d3;
+}
+
+.powered ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;     /* centra el conjunto de elementos */
+  list-style: none;
+  padding: 0;
+  margin: 40px auto;
+  max-width: 1000px;
+  gap: 40px;
+}
+
+.powered li {
+  flex: 0 0 calc(33.333% - 40px);  /* 3 elementos por fila */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;         /* alinea el contenido a la izquierda */
+  text-align: left;                /* texto alineado a la izquierda */
+  background: transparent;
+  color: white;
+  max-width: 300px;                /* controla el ancho máximo */
+}
+
+.powered li img {
+  width: 60px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.powered li h4 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 5px 0;
+  color: white;
+}
+
+.powered li p {
+  font-size: 17px;
+  font-weight: 400;
+  color: #d4d3d3;
+  line-height: 1.5;
+}
+
+
+/*  Parte de los premios*/
+
+.premios {
+  display: block;
+  background-color: #f2f2f2;
+  padding: 180px 0px 190px;
+  color: black;
+}
+
+.premios-elemento {
+  width: 100%;
+  max-width: 1560px;
+  padding: 0 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.premios-elemento-header{
+  display: block;
+  text-align: center;
+}
+
+.premios-elemento-header h2{
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 650px;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.premios-elemento-header p{
+  max-width: 650px;
+  margin-top: 23px;
+  margin-right: auto;
+  margin-left: auto;
+  color:#333;
+  font-size: 20px;
+}
+
+.premios ul {
+  display: flex;
+  flex-wrap: wrap;       /* permite que pasen a otra línea */
+  justify-content: center;
+  list-style: none;      /* quita los puntos */
+  padding: 0;
+  margin: 40px auto;
+  max-width: 900px;      /* ancho máximo centrado */
+  gap: 30px;             /* espacio entre los elementos */
+}
+
+.premios li {
+  flex: 0 0 calc(50% - 30px);  /* 2 por fila, restando el espacio del gap */
+  text-align: center;
+}
+
+.premios li img {
+  max-width: 100%;
+  height: auto;
+}
+
+.premios li h4 {
+  max-width: 250px;
+  margin: 19px auto 0;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+/* Parte de abajo del footer pixelmator para Mac*/
+
+.pixelmator-apple-ancho {
+    margin-top: 100px;
+    width: calc(100% - 80px);
+    padding: 0 40px;
+}
+
+.pixelmator-apple-elemento {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.pixelmator-apple-elemento img {
+  width: 128px;
+  height: 128px;
+  padding: 0 20px;
+}
+
+.pixelmator-apple-elemento h2 {
+  margin-top: 16px;
+  margin-bottom: 0px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #0f0f0f;
+}
+
+.pixelmator-apple-elemento h3 {
+  font: inherit;
+  max-width: 450px;
+  margin: 6px auto;
+  padding: 4px 0;
+  font-size: 20px;
+  color: #333;
+  line-height: 28px;
+}
+
+/* Pie de pagina css */
+.pie {
+    margin-top: 200px;
+    padding-top: 40px;
+    background-color: #f5f5f7;
+    color: black;
+    position: relative;
+    z-index: 5;
+}
+
+.pie-medidas {
+    width: calc(100% -80px);
+    padding: 0 40px;
+}
+
+.pie-info {
+    padding-bottom: 40px;
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.pie-info-columnas {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.pie-info-columnas nav a {
+    display: block;          /* hace que cada link se coloque debajo del otro */
+    color: #000;
+    text-decoration: none;   /* quita el subrayado */
+    margin-bottom: 4px;      /* espacio entre los enlaces */
+    font-size: 13px;         /* ajusta el tamaño */
+}
+
+.pie-info-columnas h5 {
+    font-weight: 600;
+    margin-bottom: 10px;     /* separa el título de los enlaces */
+}
