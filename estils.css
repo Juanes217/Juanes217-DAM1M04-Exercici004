@@ -18,8 +18,8 @@ html,body{
 .cabecera nav {
   display: flex;
   justify-content: center;        
-  gap: 130px;                     
-  max-width: 1000px;   
+  gap: 150px;                     
+  max-width: auto;   
   margin: auto;            
   width: 100%;
 }
@@ -38,8 +38,7 @@ html,body{
   justify-content: center;
   align-items: center;
   gap: 50px;
-  max-width: 1000px;
-  margin: 0 auto;
+  max-width: auto;
   padding: 10px 20px;
 }
 
@@ -61,6 +60,26 @@ html,body{
   border-radius: 20px;
   font-weight: 600;
 }
+
+@media (max-width: 800px) {
+    .cabecera nav {       
+    gap: 90px;                     
+  }
+    .menu-content {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 550px) {
+    .cabecera nav {       
+    gap: 40px;                     
+  }
+  .menu-content {
+    gap: 10px;
+  }
+  
+}
+
 
 /* pagina normal despues de la cabecera */
 
